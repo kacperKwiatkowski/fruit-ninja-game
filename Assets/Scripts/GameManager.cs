@@ -33,4 +33,20 @@ public class GameManager : MonoBehaviour
         gameOverPanelScoreText.text = "Score: " + score.ToString();
         gameOverPanel.SetActive(true);
     }
+
+    public void RestartGame()
+    {
+        score = 0;
+        scoreText.text = "0";
+        
+        gameOverPanel.SetActive(false);
+        gameOverPanelScoreText.text = "Score: 0";
+
+        foreach (GameObject g in GameObject.FindGameObjectsWithTag("Interactable"))
+        {
+            Destroy(g);
+        }
+        
+        Time.timeScale = 1;
+    }
 }

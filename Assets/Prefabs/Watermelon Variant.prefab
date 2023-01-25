@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Watermelon Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe5571e5ab892b44bb058c658b94ea64, type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe5571e5ab892b44bb058c658b94ea64, type: 3}
 --- !u!1 &2487956001283402803 stripped
