@@ -20,7 +20,7 @@ public class Fruit : MonoBehaviour
                         r.AddExplosionForce(Random.Range(100, 500), transform.position, 0.05f);
                 }
                 
-                FindObjectOfType<GamaManager>().IncreaseScore(3);
+                FindObjectOfType<GameManager>().IncreaseScore(3);
                 Destroy(inst.gameObject, 5);
                 Destroy(gameObject);
         }

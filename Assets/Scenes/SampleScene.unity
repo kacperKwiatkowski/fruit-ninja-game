@@ -766,7 +766,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.047169805, g: 0.036376715, b: 0.011792451, a: 0}
+  m_BackGroundColor: {r: 0.3773585, g: 0.34709862, b: 0.28657886, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -991,7 +991,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30198a3e1a2850743910d46cb6ad44dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fruitToSpawn: {fileID: 8426399742233572096, guid: 127c9749b5e758c49b6d7cbe25e0c411, type: 3}
+  objectsToSpawn:
+  - {fileID: 4739175218949766934, guid: 5e84892beff8c7043bacde4e4b4cd17e, type: 3}
+  - {fileID: 3314543463191807589, guid: 50ec46b6fdc329a4498c875721343441, type: 3}
+  - {fileID: 8426399742233572096, guid: 127c9749b5e758c49b6d7cbe25e0c411, type: 3}
+  - {fileID: 2487956001283402803, guid: 32ffc793afd26f2448bc2cbf134dcec1, type: 3}
   spawnPlaces:
   - {fileID: 101543368}
   - {fileID: 903923974}
